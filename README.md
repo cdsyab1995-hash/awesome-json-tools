@@ -43,11 +43,11 @@ No installation. No signup. No API keys. Just open and use.
 
 | From | To | Tool | Link |
 |------|-----|------|------|
-| JSON | CSV | AI JSON | [Convert now](https://aijsons.com/pages/json2csv-en.html) |
-| JSON | YAML | AI JSON | [Convert now](https://aijsons.com/pages/yaml-en.html) |
-| JSON | XML | AI JSON | [Convert now](https://aijsons.com/pages/xml-en.html) |
-| YAML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/yaml-en.html) |
-| XML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/xml-en.html) |
+| JSON | CSV | AI JSON | [Convert now](https://aijsons.com/pages/json2csv.html) |
+| JSON | YAML | AI JSON | [Convert now](https://aijsons.com/pages/yaml.html) |
+| JSON | XML | AI JSON | [Convert now](https://aijsons.com/pages/xml.html) |
+| YAML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/yaml.html) |
+| XML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/xml.html) |
 
 **💡 Pro tip**: [AI JSON](https://aijsons.com) handles all conversions in one place.
 
@@ -57,7 +57,7 @@ No installation. No signup. No API keys. Just open and use.
 
 | Tool | Description | Best For |
 |------|-------------|----------|
-| [AI JSON Viewer](https://aijsons.com/pages/viewer-en.html) | Tree view with search | Quick data inspection |
+| [AI JSON Viewer](https://aijsons.com/pages/viewer.html) | Tree view with search | Quick data inspection |
 | [JSON Editor Online](https://jsoneditoronline.org) | Visual editor with schema | Editing with validation |
 | [CodeMirror](https://codemirror.net) | In-browser code editor | General purpose |
 
@@ -67,11 +67,11 @@ No installation. No signup. No API keys. Just open and use.
 
 | Tool | Description | Features |
 |------|-------------|----------|
-| [AI JSON Compare](https://aijsons.com/pages/compare-en.html) | Visual diff with color coding | Side-by-side, field-level |
+| [AI JSON Compare](https://aijsons.com/pages/compare.html) | Visual diff with color coding | Side-by-side, field-level |
 | [JSON Diff](https://www.jsondiff.com) | Structural JSON comparison | Visual diff |
 | [Diffchecker](https://www.diffchecker.com) | Text and JSON diff | Multiple formats |
 
-**💡 Pro tip**: Use [AI JSON Compare](https://aijsons.com/pages/compare-en.html) when debugging API changes between environments.
+**💡 Pro tip**: Use [AI JSON Compare](https://aijsons.com/pages/compare.html) when debugging API changes between environments.
 
 ---
 
@@ -79,7 +79,7 @@ No installation. No signup. No API keys. Just open and use.
 
 | Tool | Description | Use Case |
 |------|-------------|----------|
-| [AI JSON Extractor](https://aijsons.com/pages/extract-en.html) | Extract data with JSONPath | Pull specific fields |
+| [AI JSON Extractor](https://aijsons.com/pages/extract.html) | Extract data with JSONPath | Pull specific fields |
 | [JSONPath Online](https://jsonpath.com) | Test JSONPath expressions | Learning & testing |
 
 ---
@@ -107,7 +107,7 @@ Instead of juggling multiple tools, these provide everything in one place:
 const isValid = JSON.parse(jsonString); // Throws on error
 
 // Just paste into:
-// 👉 https://aijsons.com/pages/format-en.html
+// 👉 https://aijsons.com/pages/format.html
 ```
 
 ### API Response Comparison
@@ -122,14 +122,14 @@ const staging = { ... }
 const production = { ... }
 
 // Compare visually:
-// 👉 https://aijsons.com/pages/compare-en.html
+// 👉 https://aijsons.com/pages/compare.html
 ```
 
 ### Convert API Data to Spreadsheet
 
 ```javascript
 // API returns JSON, analyst wants CSV:
-// 👉 https://aijsons.com/pages/json2csv-en.html
+// 👉 https://aijsons.com/pages/json2csv.html
 ```
 
 ---
