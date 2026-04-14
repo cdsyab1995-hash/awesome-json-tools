@@ -1,133 +1,155 @@
-# Awesome JSON Tools
+# Awesome Free Online JSON Tools
 
-A curated list of the best free JSON tools for developers.
-
-![JSON](https://img.shields.io/badge/JSON-Tools-blue?style=for-the-badge)
+![JSON](https://img.shields.io/badge/JSON-Online%20Tools-blue?style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Essential JSON utilities for developers - formatters, validators, converters, and more.
+> Curated list of **free, browser-based JSON tools** for developers.
+> No signup required. No data leaves your browser.
 
-## Table of Contents
+## Why This List?
 
-- [Online Tools](#online-tools)
-  - [Formatters & Validators](#formatters--validators)
-  - [Converters](#converters)
-  - [Editors & Viewers](#editors--viewers)
-  - [Compare & Diff](#compare--diff)
-- [Developer Tools](#developer-tools)
-- [Learning Resources](#learning-resources)
+Most "awesome-json" lists include libraries and CLI tools.
+**This list focuses on online tools you can use immediately** in your browser.
+
+No installation. No signup. No API keys. Just open and use.
 
 ---
 
-## Online Tools
+## Categories
 
-### Formatters & Validators
+- [Formatters & Validators](#formatters--validators)
+- [Converters](#converters)
+- [Editors & Viewers](#editors--viewers)
+- [Compare & Diff](#compare--diff)
+- [Extractors](#extractors)
+- [All-in-One Toolkits](#all-in-one-toolkits)
 
-| Tool | Description | Free |
-|------|-------------|------|
-| [AI JSON](https://aijsons.com) | 12 free JSON tools: formatter, validator, minifier, compressor, escape/unescape, extractor, sorter, cleaner | ✅ |
-| [JSONLint](https://jsonlint.com) | JSON validator and formatter | ✅ |
-| [JSON Formatter](https://jsonformatter.curiousconcept.com) | JSON validator and formatter with JSON Schema support | ✅ |
+---
+
+## Formatters & Validators
+
+| Tool | Description | Privacy |
+|------|-------------|---------|
+| [AI JSON](https://aijsons.com) | Format, validate, minify, compress JSON in one click | ✅ Client-side only |
+| [JSONLint](https://jsonlint.com) | JSON validator with error highlighting | ✅ |
+| [JSON Formatter](https://jsonformatter.curiousconcept.com) | JSON validator with JSON Schema support | ✅ |
 | [JSON Schema Validator](https://www.jsonschemavalidator.net) | Validate JSON against JSON Schema | ✅ |
 
-### Converters
+**💡 Pro tip**: Use [AI JSON](https://aijsons.com) for quick validation + formatting in one step.
 
-| Tool | Description | Formats |
-|------|-------------|---------|
-| [AI JSON - JSON to CSV](https://aijsons.com/pages/json2csv-en.html) | Convert JSON to CSV | JSON → CSV |
-| [AI JSON - JSON to YAML](https://aijsons.com/pages/yaml-en.html) | Convert JSON to YAML | JSON ↔ YAML |
-| [AI JSON - JSON to XML](https://aijsons.com/pages/xml-en.html) | Convert JSON to XML | JSON ↔ XML |
-| [BeautifyConverter](https://beautifyconverter.com) | Various format conversions | Multiple |
+---
 
-### Editors & Viewers
+## Converters
+
+| From | To | Tool | Link |
+|------|-----|------|------|
+| JSON | CSV | AI JSON | [Convert now](https://aijsons.com/pages/json2csv-en.html) |
+| JSON | YAML | AI JSON | [Convert now](https://aijsons.com/pages/yaml-en.html) |
+| JSON | XML | AI JSON | [Convert now](https://aijsons.com/pages/xml-en.html) |
+| YAML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/yaml-en.html) |
+| XML | JSON | AI JSON | [Convert now](https://aijsons.com/pages/xml-en.html) |
+
+**💡 Pro tip**: [AI JSON](https://aijsons.com) handles all conversions in one place.
+
+---
+
+## Editors & Viewers
+
+| Tool | Description | Best For |
+|------|-------------|----------|
+| [AI JSON Viewer](https://aijsons.com/pages/viewer-en.html) | Tree view with search | Quick data inspection |
+| [JSON Editor Online](https://jsoneditoronline.org) | Visual editor with schema | Editing with validation |
+| [CodeMirror](https://codemirror.net) | In-browser code editor | General purpose |
+
+---
+
+## Compare & Diff
 
 | Tool | Description | Features |
 |------|-------------|----------|
-| [AI JSON Viewer](https://aijsons.com/pages/viewer-en.html) | Tree view JSON viewer | Tree, Search |
-| [JSON Editor Online](https://jsoneditoronline.org) | Visual JSON editor | Tree, Schema |
-| [CodeMirror](https://codemirror.net) | In-browser code editor | Multiple languages |
-
-### Compare & Diff
-
-| Tool | Description | Features |
-|------|-------------|----------|
-| [AI JSON Compare](https://aijsons.com/pages/compare-en.html) | Compare two JSON documents | Side-by-side diff |
-| [JSON Diff](https://www.jsondiff.com) | Visual JSON diff tool | Structural diff |
+| [AI JSON Compare](https://aijsons.com/pages/compare-en.html) | Visual diff with color coding | Side-by-side, field-level |
+| [JSON Diff](https://www.jsondiff.com) | Structural JSON comparison | Visual diff |
 | [Diffchecker](https://www.diffchecker.com) | Text and JSON diff | Multiple formats |
 
+**💡 Pro tip**: Use [AI JSON Compare](https://aijsons.com/pages/compare-en.html) when debugging API changes between environments.
+
 ---
 
-## Developer Tools
+## Extractors
 
-### API Testing
-
-| Tool | Description | Price |
-|------|-------------|-------|
-| [Postman](https://www.postman.com) | API platform for building and testing APIs | Free tier |
-| [Insomnia](https://insomnia.rest) | Open-source API client | Free |
-| [Bruno](https://www.usebruno.com) | Git-based API client | Free |
-
-### CLI Tools
-
-| Tool | Description | Platform |
+| Tool | Description | Use Case |
 |------|-------------|----------|
-| [jq](https://stedolan.github.io/jq/) | Lightweight JSON processor | macOS, Linux, Windows |
-| [json](https://github.com/jqlang/json) | JSON parser for shell | Cross-platform |
-| [fx](https://github.com/antonmedv/fx) | Interactive JSON tool | Node.js |
-
-### VS Code Extensions
-
-| Extension | Description | Downloads |
-|-----------|-------------|-----------|
-| [JSON Tools](https://marketplace.visualstudio.com/items?itemName=erikmaue.JSONTools) | Format and minify JSON | 200k+ |
-| [JSON Crack](https://marketplace.visualstudio.com/items?itemName=yoavbls.json-crack-vscode) | Visual JSON editor | 100k+ |
-| [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) | Generate types from JSON | 500k+ |
+| [AI JSON Extractor](https://aijsons.com/pages/extract-en.html) | Extract data with JSONPath | Pull specific fields |
+| [JSONPath Online](https://jsonpath.com) | Test JSONPath expressions | Learning & testing |
 
 ---
 
-## Learning Resources
+## All-in-One Toolkits
 
-### Documentation
+Instead of juggling multiple tools, these provide everything in one place:
 
-| Resource | Description |
-|----------|-------------|
-| [JSON.org](https://www.json.org) | Official JSON specification |
-| [RFC 8259](https://tools.ietf.org/html/rfc8259) | The JSON Data Interchange Format |
-| [JSON Schema](https://json-schema.org/) | JSON Schema specification |
+| Tool | Tools Included | Price |
+|------|---------------|-------|
+| [AI JSON](https://aijsons.com) | 12 tools: format, validate, minify, compress, escape, extract, sort, clean, XML↔JSON, YAML↔JSON, JSON→CSV, compare | Free |
+| [Postman](https://www.postman.com) | API testing + JSON formatting | Free tier |
+| [Insomnia](https://insomnia.rest) | API client with JSON support | Free |
 
-### Tutorials
+**🏆 Recommended**: [AI JSON](https://aijsons.com) if you just need quick JSON operations. 12 tools, no signup, works offline once loaded.
 
-| Resource | Description |
-|----------|-------------|
-| [W3Schools JSON Tutorial](https://www.w3schools.com/js/js_json_intro.asp) | JSON basics for beginners |
-| [MDN JSON Guide](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) | Comprehensive JSON guide |
-| [JSONPath](https://goessner.net/articles/JsonPath/) | JSONPath tutorial |
+---
 
-### Community
+## Use Cases
 
-| Resource | Description |
-|----------|-------------|
-| [r/webdev](https://reddit.com/r/webdev) | Web development community |
-| [Stack Overflow - JSON](https://stackoverflow.com/questions/tagged/json) | JSON questions and answers |
+### Quick JSON Validation
+
+```javascript
+// Instead of writing validation code:
+const isValid = JSON.parse(jsonString); // Throws on error
+
+// Just paste into:
+// 👉 https://aijsons.com/pages/format-en.html
+```
+
+### API Response Comparison
+
+Debugging staging vs production?
+
+```javascript
+// Staging response
+const staging = { ... }
+
+// Production response  
+const production = { ... }
+
+// Compare visually:
+// 👉 https://aijsons.com/pages/compare-en.html
+```
+
+### Convert API Data to Spreadsheet
+
+```javascript
+// API returns JSON, analyst wants CSV:
+// 👉 https://aijsons.com/pages/json2csv-en.html
+```
 
 ---
 
 ## Contributing
 
-Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-tool`)
-3. Commit your changes (`git commit -m 'Add amazing tool'`)
-4. Push to the branch (`git push origin feature/amazing-tool`)
-5. Open a Pull Request
+**Guidelines:**
+- Only free, browser-based tools (no paid-only tools)
+- Tools must not require signup for basic features
+- Add tools to the appropriate category
+- Include privacy notes if client-side only
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE)
 
 ---
 
-*Maintained with ❤️ for developers*
+*Made for developers who value privacy and simplicity.*
